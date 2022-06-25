@@ -7,25 +7,86 @@
   pointer-events: none;
 }
 
+body{
+  background-color: #282c34;
+  color: #fff;
+}
+
+button.MuiButton-root{
+  float: right !important;
+  margin-left: auto;
+}
+
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+.App-link {
+  color: #61dafb;
+}
+
+.MuiCardContent-root{
+  min-height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center !important;
+}
+
+.MuiTypography-body2{
+  text-align: center;
+}
+
+.MuiCardActions-spacing{
+  display: flex;
+}
+
+.MuiButton-root{
+  margin-left: auto;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.additional{
+  display: flex;
+  justify-content: center;
+}
+
+.m-auto{
+  display: flex;
+  margin: 30px 0;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+header{
+  background-color: #5C4033 !important;
+}
+
+footer{
+  position: sticky;
+  top: 100vh;
 }
 
 @keyframes App-logo-spin {

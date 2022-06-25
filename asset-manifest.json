@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gotapi-project/static/css/main.470a3aef.css",
+    "main.js": "/gotapi-project/static/js/main.a9d8654e.js",
+    "static/js/787.0c17c400.chunk.js": "/gotapi-project/static/js/787.0c17c400.chunk.js",
+    "static/media/logogot.png": "/gotapi-project/static/media/logogot.2e03f98a34f093a9b8ea.png",
+    "index.html": "/gotapi-project/index.html",
+    "main.470a3aef.css.map": "/gotapi-project/static/css/main.470a3aef.css.map",
+    "main.a9d8654e.js.map": "/gotapi-project/static/js/main.a9d8654e.js.map",
+    "787.0c17c400.chunk.js.map": "/gotapi-project/static/js/787.0c17c400.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.470a3aef.css",
+    "static/js/main.a9d8654e.js"
+  ]
+}

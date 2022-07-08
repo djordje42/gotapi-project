@@ -25,7 +25,7 @@ const Main = () => {
 
   useEffect(() => {
     const getMembers = async () => {
-      const res = await axios.get(`${url}/asdf`)
+      const res = await axios.get(`${url}`)
       setMembers(res.data)
       console.log(res.data)
     }
